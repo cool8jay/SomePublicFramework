@@ -4,6 +4,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "SomePublicFramework macOS Framework"
   spec.description  = "SomePublicFramework macOS Framework for public test."
   spec.homepage     = "https://github.com/cool8jay/SomePublicFramework"
+  spec.vendored_frameworks = "SomePublicFramework.framework"
   spec.license      = { :type => 'Copyright', :text => <<-LICENSE
                      Copyright (C) 2024. All rights reserved.
                      LICENSE
